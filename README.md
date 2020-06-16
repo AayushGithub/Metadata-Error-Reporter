@@ -1,6 +1,9 @@
 # Metadata-Error-Reporter
 Finds errors in the metadata section of the FreePN blog post markdown files
 
+## How to run:
+### Place the file in the same folder as the .md files. There can be more than 1 .md file. Double-Tap and it will run and produce three files
+
 
 The script works is that all the blog articles are stored as .md files in a folder
 
@@ -26,6 +29,3 @@ There are a total of 11 tests
  10. checks for the blank line between metadata and start of article
  11. checks if heading and title match
 
-
-## How to run:
-### Place the file in the same folder as the .md files. There can be more than 1 .md file. Double-Tap and it will run and produce three files
