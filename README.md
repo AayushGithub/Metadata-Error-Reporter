@@ -3,12 +3,16 @@ Finds errors in the metadata section of the FreePN blog post markdown files
 
 
 The script works is that all the blog articles are stored as .md files in a folder
-the script is run and produces three outputs
-one is a list of all the files that passed all the tests  (csv file)
-one is the list of files that failed at least one test (csv file)
-one is a txt file containing the logs for each file, including which tests were failed for which file
 
-there are a total of 11 tests
+The script is run and produces three outputs
+
+One is a list of all the files that passed all the tests  (csv file)
+
+One is the list of files that failed at least one test (csv file)
+
+One is a txt file containing the logs for each file, including which tests were failed for which file
+
+There are a total of 11 tests
 
  1. the first checks that the first line is ''---' 
  2. checks for 'TITLE: '
@@ -23,3 +27,5 @@ there are a total of 11 tests
  11. checks if heading and title match
 
 
+## How to run:
+### Place the file in the same folder as the .md files. There can be more than 1 .md file. Double-Tap and it will run and produce three files
