@@ -1,19 +1,8 @@
 
-
-
-
-
-
-Path = 'enter path of md files'
-
-
-
-
-
-
 import os
 import csv
-import sys 
+import sys
+Path = os.getcwd()+'\\'
 stdoutOrigin=sys.stdout 
 sys.stdout = open("RESULTS.txt", "w")
 filelist = os.listdir(Path)
